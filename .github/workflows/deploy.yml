@@ -28,9 +28,3 @@ jobs:
           push: true
           # Replace 'yourusername/allo-inventory' with your actual Docker Hub image name.
           tags: ${{ secrets.DOCKERHUB_USERNAME }}/allo-inventory:latest
-
-      # This step triggers the deploy hook from Render if you have set it up
-      - name: Deploy to Render
-        if: success()
-        run: |
-          curl -X POST ${{ secrets.RENDER_DEPLOY_HOOK }}
