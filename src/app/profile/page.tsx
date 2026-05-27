@@ -6,7 +6,7 @@ import { useRouter } from "next/navigation";
 const AVATAR_COLORS = [
   { label: "Blue", value: "#004ac6" },
   { label: "Violet", value: "#6d28d9" },
-  { label: "Rose", value: "#be123c" },
+  { label: "Red", value: "#be123c" },
   { label: "Emerald", value: "#047857" },
   { label: "Amber", value: "#b45309" },
   { label: "Cyan", value: "#0e7490" },

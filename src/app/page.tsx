@@ -9,6 +9,8 @@ type Inventory = {
   warehouse: { id: string; name: string; location: string };
 };
 
+
+
 type Product = {
   id: string;
   name: string;
